@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon --watch src --ext js,json --exec node src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "KrishiSaathi backend for multilingual AI chatbot",
+  "dependencies": {
+    "@google-cloud/translate": "^9.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "langchain": "^0.3.33",
+    "openai": "^5.20.1",
+    "uuid": "^13.0.0",
+    "@langchain/openai": "^0.3.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
