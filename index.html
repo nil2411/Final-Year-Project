@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharashtra Agriculture Schemes | शेतकरी योजना</title>
+
+    <!-- Suppress the Google Translate top banner bar -->
+    <style>
+      /* Hide the injected GT iframe bar */
+      .goog-te-banner-frame.skiptranslate { display: none !important; }
+      /* Prevent body from being pushed down when GT bar appears */
+      body { top: 0px !important; }
+      /* Push the GT widget off-screen — MUST NOT be display:none or GT won't inject its <select> */
+      #google_translate_element {
+        position: absolute;
+        left: -9999px;
+        top: -9999px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        opacity: 0;
+        pointer-events: none;
+      }
+      /* Suppress the GT tooltip popups */
+      #goog-gt-tt, .goog-te-balloon-frame { display: none !important; }
+      /* Keep translated text looking normal */
+      .goog-text-highlight { background-color: transparent !important; box-shadow: none !important; }
+      font { background-color: transparent !important; }
+    </style>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: 'en',
+            includedLanguages: 'en,hi,mr',
+            autoDisplay: false,
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          },
+          'google_translate_element'
+        );
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </head>
+  <body>
+    <!-- Hidden GT widget mount point — must stay in DOM for the widget to initialise -->
+    <div id="google_translate_element"></div>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

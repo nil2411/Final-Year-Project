@@ -1,0 +1,55 @@
+{
+  "category": "Agriculture Marketing",
+  "level": "STATE",
+  "state": "MH",
+  "items": [
+    {
+      "scheme_name": "Grameen Bhandaran Yojana",
+      "component_name": "Construction of rural godowns (100 MT to 30,000 MT; 50 MT for hill areas)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Subsidy on capital cost: 25% for all farmers; 33.33% for women farmers, SHGs, cooperatives, entrepreneurs; 15% for other categories",
+      "eligibility": "Farmers, women farmers, SHGs, cooperatives and entrepreneurs as per scheme norms",
+      "how_to_apply": "Apply through District Agriculture Marketing Office / concerned implementing agency",
+      "contact": {
+        "office": "District Agriculture Marketing Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Scheme for Development / Strengthening of Agricultural Marketing Infrastructure, Grading & Standardization",
+      "component_name": "Development of marketing infrastructure projects",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "25% subsidy on capital cost up to Rs 50 lakh per project; 33.33% subsidy up to Rs 60 lakh for hilly/tribal areas or SC/ST entrepreneurs and cooperatives; No ceiling for projects of State agencies",
+      "eligibility": "State agencies, cooperatives, farmers, entrepreneurs, including those in hilly/tribal areas and SC/ST categories",
+      "how_to_apply": "Apply through District Agriculture Marketing Office / State implementing agency",
+      "contact": {
+        "office": "District Agriculture Marketing Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Initiative for Nutritional Security through Intensive Millets Promotion (INSIMP)",
+      "component_name": "Awareness programmes and food festivals (district level)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 1 lakh per food festival per district",
+      "eligibility": "Districts implementing INSIMP activities",
+      "how_to_apply": "Apply through District Agriculture Office under INSIMP",
+      "contact": {
+        "office": "District Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    }
+  ]
+}

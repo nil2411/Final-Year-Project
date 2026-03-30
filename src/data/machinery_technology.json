@@ -1,0 +1,167 @@
+{
+  "category": "Machinery and Technology",
+  "level": "STATE",
+  "state": "MH",
+  "items": [
+    {
+      "scheme_name": "Macro Management Mode of Agriculture (MMA)",
+      "component_name": "Tractor up to 40 HP",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 45,000 or 25% of cost, whichever is less",
+      "eligibility": "Farmers owning agricultural land",
+      "how_to_apply": "Apply through Taluka Agriculture Officer / Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Macro Management Mode of Agriculture (MMA)",
+      "component_name": "Power Tiller (8 BHP & above)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 45,000 or 40% of cost, whichever is less",
+      "eligibility": "Farmers owning agricultural land",
+      "how_to_apply": "Apply through Taluka Agriculture Officer / Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Macro Management Mode of Agriculture (MMA)",
+      "component_name": "Manually operated implements",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 2,000 or 25% of cost, whichever is less",
+      "eligibility": "Farmers owning agricultural land",
+      "how_to_apply": "Apply through Taluka Agriculture Officer / Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Macro Management Mode of Agriculture (MMA)",
+      "component_name": "Animal driven implements",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 2,500 or 25% of cost, whichever is less",
+      "eligibility": "Farmers using animal-driven farming practices",
+      "how_to_apply": "Apply through Taluka Agriculture Officer / Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Food Security Mission (NFSM)",
+      "component_name": "Cono weeder and other farm implements",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 3,000 or 50% of cost, whichever is less",
+      "eligibility": "Farmers growing NFSM covered crops",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Food Security Mission (NFSM)",
+      "component_name": "Pump set up to 10 HP",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 10,000 or 50% of cost, whichever is less",
+      "eligibility": "Farmers growing NFSM covered crops",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Oilseed Production Programme",
+      "component_name": "Improved farm implements (manually operated)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "50% of cost limited to Rs 2,500 per implement",
+      "eligibility": "Farmers growing oilseed crops",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Oilseed Production Programme",
+      "component_name": "Plant protection equipment (manually operated)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "50% of cost limited to Rs 800 per equipment",
+      "eligibility": "Farmers growing oilseed crops",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Oilseed Production Programme",
+      "component_name": "Multi-crop thresher",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "50% of cost limited to Rs 24,000 per unit",
+      "eligibility": "Farmers growing oilseed crops",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Initiative for Nutritional Security through Intensive Millets Promotion (INSIMP)",
+      "component_name": "Setting up primary and secondary processing units for millet crops",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 4 lakh for primary and secondary processing unit",
+      "eligibility": "Farmer groups / entrepreneurs involved in millet processing",
+      "how_to_apply": "Apply through Agriculture Department under INSIMP",
+      "contact": {
+        "office": "District Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    }
+  ]
+}

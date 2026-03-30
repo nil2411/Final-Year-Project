@@ -1,0 +1,1042 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width,&#32;initial-scale=1" /><title>
+	PM-Kisan Samman Nidhi
+</title><link href="new_css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" /><link href="new_css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" /><link href="new_css/material.css" rel="stylesheet" type="text/css" media="all" /><link href="new_css/animate.css" rel="stylesheet" type="text/css" media="all" /><link href="new_css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript">
+        function PeriodWiseMapRender() {
+
+            try {
+
+                var s =[{"STNAME":"ANDAMAN AND NICOBAR ISLANDS","value":99, "DataGeneratedOn":"29/01/2026","StateCode":35,"EligibleFarmers":13085,"FinYear":"2025-26","Period":"August-Nov","FundTransferred":12975},{"STNAME":"ANDHRA PRADESH","value":99, "StateCode":28,"EligibleFarmers":3960665,"FundTransferred":3915738},{"STNAME":"ARUNACHAL PRADESH","value":100, "StateCode":12,"EligibleFarmers":82518,"FundTransferred":82187},{"STNAME":"ASSAM","value":100, "StateCode":18,"EligibleFarmers":1883371,"FundTransferred":1883078},{"STNAME":"BIHAR","value":100, "StateCode":10,"EligibleFarmers":7343330,"FundTransferred":7342076},{"STNAME":"CHANDIGARH","value":0, "StateCode":4,"EligibleFarmers":17,"FundTransferred":0},{"STNAME":"CHHATTISGARH","value":100, "StateCode":22,"EligibleFarmers":2471906,"FundTransferred":2469284},{"STNAME":"DELHI","value":100, "StateCode":7,"EligibleFarmers":10985,"FundTransferred":10958},{"STNAME":"GOA","value":100, "StateCode":30,"EligibleFarmers":6246,"FundTransferred":6241},{"STNAME":"GUJARAT","value":100, "StateCode":24,"EligibleFarmers":4942177,"FundTransferred":4922974},{"STNAME":"HARYANA","value":100, "StateCode":6,"EligibleFarmers":1585176,"FundTransferred":1579194},{"STNAME":"HIMACHAL PRADESH","value":98, "StateCode":2,"EligibleFarmers":815001,"FundTransferred":801062},{"STNAME":"JAMMU AND KASHMIR","value":100, "StateCode":1,"EligibleFarmers":866801,"FundTransferred":866309},{"STNAME":"JHARKHAND","value":100, "StateCode":20,"EligibleFarmers":1830855,"FundTransferred":1824199},{"STNAME":"KARNATAKA","value":97, "StateCode":29,"EligibleFarmers":4289886,"FundTransferred":4147049},{"STNAME":"KERALA","value":100, "StateCode":32,"EligibleFarmers":2756122,"FundTransferred":2753167},{"STNAME":"LAKSHADWEEP","value":100, "StateCode":31,"EligibleFarmers":2178,"FundTransferred":2178},{"STNAME":"MADHYA PRADESH","value":100, "StateCode":23,"EligibleFarmers":8207095,"FundTransferred":8191274},{"STNAME":"MAHARASHTRA","value":100, "StateCode":27,"EligibleFarmers":9073678,"FundTransferred":9059433},{"STNAME":"MANIPUR","value":28, "StateCode":14,"EligibleFarmers":62897,"FundTransferred":17467},{"STNAME":"MEGHALAYA","value":100, "StateCode":17,"EligibleFarmers":177184,"FundTransferred":177133},{"STNAME":"MIZORAM","value":100, "StateCode":15,"EligibleFarmers":118694,"FundTransferred":118608},{"STNAME":"NAGALAND","value":100, "StateCode":13,"EligibleFarmers":182096,"FundTransferred":182068},{"STNAME":"ODISHA","value":100, "StateCode":21,"EligibleFarmers":3450279,"FundTransferred":3440261},{"STNAME":"PUDUCHERRY","value":99, "StateCode":34,"EligibleFarmers":5507,"FundTransferred":5434},{"STNAME":"PUNJAB","value":100, "StateCode":3,"EligibleFarmers":1121173,"FundTransferred":1120877},{"STNAME":"RAJASTHAN","value":98, "StateCode":8,"EligibleFarmers":6676447,"FundTransferred":6544128},{"STNAME":"SIKKIM","value":100, "StateCode":11,"EligibleFarmers":29952,"FundTransferred":29892},{"STNAME":"TAMIL NADU","value":99, "StateCode":33,"EligibleFarmers":2182613,"FundTransferred":2166082},{"STNAME":"TELANGANA","value":100, "StateCode":36,"EligibleFarmers":3020681,"FundTransferred":3008481},{"STNAME":"TRIPURA","value":100, "StateCode":16,"EligibleFarmers":210390,"FundTransferred":210333},{"STNAME":"UTTARAKHAND","value":100, "StateCode":5,"EligibleFarmers":809710,"FundTransferred":809342},{"STNAME":"UTTAR PRADESH","value":100, "StateCode":9,"EligibleFarmers":21627908,"FundTransferred":21604559},{"STNAME":"WEST BENGAL","value":100, "StateCode":19,"EligibleFarmers":4454542,"FundTransferred":4452437},{"STNAME":"LADAKH","value":100, "StateCode":37,"EligibleFarmers":17713,"FundTransferred":17686},{"STNAME":"The Dadra and Nagar Haveli and  Daman and Diu","value":100, "StateCode":38,"EligibleFarmers":11675,"FundTransferred":11648}];
+                var data = s;
+
+
+
+                if (data == "No data Found") {
+
+                    alert('No data found for map');
+                }
+
+                else {
+
+                    $("#MapDataAson").text("As on: " + data[0].DataGeneratedOn);
+                    $("#FinYrMap").text("Financial Year: " + data[0].FinYear);
+                    $("#PeriodMap").text("Period: " + data[0].Period);
+
+                    Highcharts.getJSON('MapFile/a.json', function (geojson) {
+                        // Initialize the chart
+                        Highcharts.mapChart('mapDivnew', {
+                            chart: {
+                                map: geojson
+                            },
+
+                            title: {
+                                text: ' '
+                            },
+
+                            accessibility: {
+                                typeDescription: ''
+                            },
+
+                            mapNavigation: {
+                                enabled: false,
+                                buttonOptions: {
+                                    verticalAlign: 'bottom'
+                                }
+                            },
+
+                            colorAxis: {
+                                dataClassColor: '{point.Percent}',
+                                //dataClasses: [
+                                //    {
+                                //        from: 0,
+                                //        to: 20,
+                                //        color: '#ff615e'
+
+                                //    }, {
+                                //        from: 20,
+                                //        to: 40,
+                                //        color: '#482a80'
+
+
+                                //    }
+                                //    , {
+                                //        from: 40,
+                                //        to: 60,
+                                //        color: '#f8de6f'
+
+                                //    }, {
+                                //        from: 60,
+                                //        to: 80,
+                                //        color: '#fdc0bf'
+                                //    }, {
+                                //        from: 80,
+                                //        to: 100,
+                                //        color: '#018a80'
+                                //    }
+
+
+                                //]
+
+
+                                dataClasses: [
+                                    {
+                                        from: 0,
+                                        to: 20,
+                                        color: '#90EE90'
+
+                                    }, {
+                                        from: 20,
+                                        to: 40,
+                                        color: '#482a80'
+
+
+                                    }
+                                    , {
+                                        from: 40,
+                                        to: 60,
+                                        color: '#f8de6f'
+
+                                    }, {
+                                        from: 60,
+                                        to: 80,
+                                        color: '#fdc0bf'
+                                    }, {
+                                        from: 80,
+                                        to: 100,
+                                        color: '#018a80'
+                                    }
+
+
+                                ]
+                            },
+
+                            series: [{
+                                data: data,
+
+
+                                joinBy: ['State_LGD', 'StateCode'],
+                                name: ' ',
+                                states: {
+
+                                },
+                                dataLabels: {
+                                    enabled: true,
+                                    format: '{point.STNAME}'
+                                }
+                            }]
+                            ,
+                            plotOptions: {
+
+                                map: {
+                                    tooltip: {
+                                        headerFormat: '',
+
+                                        pointFormat: '<center style="font-size:15px;font-weight:bold">{point.STNAME}</center><br/>' +
+                                            '<b>No. of Eligible Beneficiaries : {point.EligibleFarmers}</b><br/>'
+                                            + '<b>Fund Transferred(Unique Beneficiaries) : {point.FundTransferred}</b><br/>'
+                                            + '<b>Fund Transferred Rate : {point.value} %</b><br/>'
+
+
+
+                                    }
+                                }
+                            },
+                        });
+                    });
+                }
+
+
+            }
+            catch {
+                alert('some error occured');
+            }
+
+        }
+
+    </script>
+    <style type="text/css">
+        .r-8kz0gk {
+            height: 14px
+        }
+
+        .r-lrsllp {
+            width: 14px
+        }
+
+        .r-16y2uox {
+            -ms-flex-positive: 1;
+            -webkit-box-flex: 1;
+            -webkit-flex-grow: 1;
+            flex-grow: 1
+        }
+
+        .r-18jsvk2 {
+            color: rgba(15,20,25,1)
+        }
+
+        .r-lrvibr {
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -webkit-user-select: none;
+            user-select: none
+        }
+
+        .r-1plcrui {
+            vertical-align: text-bottom
+        }
+
+        .r-bnwqim {
+            position: relative
+        }
+
+        .r-dnmrzs {
+            max-width: 100%
+        }
+
+        .r-yyyyoo {
+            fill: currentcolor
+        }
+
+        .r-4qtqp9 {
+            display: inline-block
+        }
+        /* #onload .modal-dialog{height:90%}#onload .modal-content{height:100%;background:none !important}#onload .modal-body{display:flex;align-items:center} */
+        #onload .modal-dialog {
+            width: 1130px !important
+        }
+
+        #onload .modal-content {
+            background: none !important
+        }
+
+        #onload .modal-body img.img-fluid {
+            border: 14px solid rgb(255,255,255);
+            border-radius: 10px 0 10px 10px
+        }
+
+        #onload .modal-content a {
+            display: block;
+        }
+
+            #onload .modal-content a img {
+                width: 100%
+            }
+
+            .modal-body video{width:100%;height:100%}
+        /*button.closebtn{top:107px!important}  */
+		
+		.bharatchatbot {
+    position: fixed;
+    bottom: 247px;
+    right: 31px;
+    z-index: 9;
+}
+.bharatchatbot .animated {    animation-duration: 4.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+.bharatchatbot .text {
+    bottom: 61px !important;
+    padding: 5px !important;
+    right: 40px !important;
+    width: 100px !important;
+    border-radius: 10px 10px 0 10px !important;
+    background: rgb(0, 104, 58) !important;
+    position: absolute !important;
+    color: #fff !important;
+    font-size: .7em !important;
+    font-family: sans-serif !important;
+    text-transform: uppercase !important;
+    text-align: center;
+}
+.bharatchatbot img {
+    max-width: 70px;
+}
+
+    </style>
+</head>
+
+<body class="active-preloader-ovh homepage">
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="THMw4A/8pT5VUhX+B0oUNgSz37YAQYkWuPMtKMkVkWv1IaOcV2ncUM9IdbrWlSWSit9jW8qoHTV/yZ5Da1XE1aYPe5Y7EhhrkOMRhF5sj9kQonjZl6YOdijh+vDcOW8z3aNClBKYEG7wHlpO0uMmlJNS2bR4QKJryB7husvYN6F0bumE7kTQiFsJWDApJsOytPnuENwv0pB4J//R2B4xxsrFmJ2q2WnTA7RBlAJdU7xR5MzLVonm2X6EqZlY00wPWZFB3zAa+LqeiYpfcvA88HrF+Ho0tK6A3fmMqXCMcnwFROjlHaDmSSQDLGGLPqW70UQFCXkBNGjLYuOakuj50yAda7Esn3Awifk0G5mozCg1rXgfs9BJE4I7efZ6DYD+2Z8RwvUWCPfHj5gCdjVYJNb1oZOoaxCZTrR20r/ypqysGXGny/R9PprfArxd6Pb8eW47yKwHsWRLA9AxMRSDvYA7AOfo8BZISEO/494ivF/Qh4xo8s9VyQ4SlXhrYcaR7KXcecWZHHLo4DGJAnbIlsivAQv65CSITd3DKGAwxMSpmcBptd3vW62E9Wo3Cn916KWjxP3YJ58le3Z9d482n/DKimjtrvP5BhTUvAQMGRYKtSoHVgWE0sWxnL1ZFE7/+1hsfxWmQBfDsRysInBoKaUALlcLfpd69eghOKH7zVPrT2uWifhTvwfpfcNgO1B78RPVsTPtxUlLoriKEOeaHBW+b62ngXj+ThJw2BCB6NOQfCZe/zQljoScpyVR5JoatFqJD4U9R9p4CMOl80R5GPVWHEaYIcH+llruTYRU9HICqBG8auf+UyHXFtXvwTZD6RxsBe3JtFVvT3EZ7wHOv17/GOUApdA0x1ghGiY2BJe15kbqu5BHVVYn2DWXfk1r" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5023BE19" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="P5r1FgK5mun5SiX8NqKArw+h5fj8psKhK+kMLaGYHJzktcdksFZuL0s72ppk2bXGY4EPmh+ywDDt3fNtmZ8wh7G7OZXnbhoFwZ/t6Tn89E+hm/swmf+JegCM0OH8aVugxLomNSaJsuaGq10VrsyCTsVWPmAHt4kRYoiI2nN3UewswwCUJlXUGTPPaZ3HnzvFeYvLc+USSkv8EkZJev64uS85PPPQREZ3rrQ3YW3L1MlBmNEYezJIv6N+aOD/KQTdmUbMTCzgtqJIx/n++L0hmLwJ7KLiOeZzJi8snSLyYDM9KmVMB0iVowZ/6HZZsmXHkG1Zwave9p6Ifip0NQzxht7dEZOMOJtIHamDl51xwf0=" />
+        <div class="preloader">
+            <div class="spinner"></div>
+        </div>
+        <header>
+            <div class="topheader homeheader">
+                <div class="container-fluid">
+                    <div class="row m-0 justify-content-center">
+                        <div class="col-12 col-sm-2 col-md-2">
+                            <ul class="hometopmenu">
+                                <li>
+                                    <a href="Contacts.aspx">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="Sitemap.aspx">Sitemap</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 align-items-center justify-content-center">
+                            <ul class="hometopmenu gigwmenu">
+                                <li><a href="#MainContent" target="_top" class="hide li_eng responsive_minis_eng">Skip to main content</a></li>
+                                <li><a href="ScreenReader.aspx" class="hide">Screen Reader Access</a></li>
+                                <li><a href="https://twitter.com/pmkisanofficial" target="_blank">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true" class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp">
+                                        <g>
+                                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                                        </g></svg></a></li>
+                                <li><a href="https://www.facebook.com/PMKISANofficial/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://www.youtube.com/@pmkisanofficial" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4">
+                            <ul class="hometopmenu rightmenu">
+                                <li>
+                                    <select name="ddlLanguage" id="ddlLanguage" class="form-control">
+	<option selected="selected" value="99">English</option>
+	<option value="1">Assamese</option>
+	<option value="5">Gujarati</option>
+	<option value="6">Hindi</option>
+	<option value="7">Kannada</option>
+	<option value="11">Malayalam</option>
+	<option value="13">Marathi</option>
+	<option value="20">Tamil</option>
+	<option value="21">Telugu</option>
+	<option value="22">Urdu</option>
+
+</select>
+                                </li>
+                                <li>
+                                    <a href="http://fw.pmkisan.gov.in/">Login</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">External Logins</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="https://exlink.pmkisan.gov.in">CSC Login</a></li>
+                                        <li class="nav-item"><a href="https://sso.rajasthan.gov.in/signin">eMitra Login</a></li>
+                                        <li class="nav-item"><a href="https://sevasindhuservices.karnataka.gov.in/">eGramaone Login</a></li>
+                                        <li class="nav-item"><a href="https://www.digitalgujarat.gov.in/KSP/AGRIAPP/">eGrama Login</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="fas fa-search"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="midheader">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-3">
+                            <div class="logotext">
+                                <div class="logotextinner">
+                                    <h1>PM Kisan Samman Nidhi</h1>
+                                    <p>Department of Agriculture and Farmers Welfare</p>
+                                    <p>Ministry of Agriculture and Farmers Welfare</p>
+                                    <p>Government of India</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-7">
+                            <div class="mainmenuarea homemenu">
+                                <div class="mainmenu">
+                                    <nav id="mobile-menu">
+                                        <ul class="mainnavi mr-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/">HOME</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link dropdownicon" href="javascript:void(0);" id="AboutUs" role="button">About Us </a>
+                                                <ul class="sub-menu">
+                                                    <li class="nav-item">
+                                                        <a href="#About">About The Scheme</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="#SchemeExclusion">SCHEME EXCLUSION</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="Documents/à¤ªà¥à¤°à¤§à¤¾à¤¨à¤®à¤‚à¤¤à¥à¤°à¥€ à¤•à¤¿à¤¸à¤¾à¤¨ à¤¸à¤®à¥à¤®à¤¾à¤¨ à¤¨à¤¿à¤§à¤¿.pdf" target="_blank">Hindi Version</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="Documents/PMKisanSamanNidhi.PDF" target="_blank">English Version</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="javascript:void(0);">FAQ</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="Documents/RevisedFAQ.pdf" target="_blank">Revised FAQ</a></li>
+                                                            <li><a href="Documents/FAQPMKISAN.PDF" target="_blank">Basic FAQ</a></li>
+                                                            <li><a href="Documents/ADDITIONAL-FAQ-IN-RESPECTIVE-OF-THE-PM2.pdf" target="_blank">Additional FAQ</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link dropdownicon">Guidelines</a>
+                                                <ul class="sub-menu">
+                                                    <li class="nav-item">
+                                                        <a href="javascript:void(0);">Operational Guidelines</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="Documents/RevisedPM-KISANOperationalGuidelines(English).pdf" target="_blank">Revised Operational Guidelines<img src="new_images/new.gif" /></a></li>
+                                                            <li><a href="Documents/Operational Guidelines of Financing Facility under Agriculture Infrastructure Fund.pdf" target="_blank">Financing Facility under Agriculture Infrastructure Fund<img src="new_images/new.gif" /></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="javascript:void(0);" class="nav-link dropdownicon">Other Guidelines</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="Documents/Transfer of Benefits NPCI 18 feb (1).PDF" target="_blank">Transfer Of Benefits Through Npci</a></li>
+                                                            <li><a href="Documents/FTG.pdf" target="_blank">Fund Transfer Guidelines</a></li>
+                                                            <li><a href="Documents/PM Kisan Refund Mechanism.pdf" target="_blank">Pm Kisan Refund Mechanism</a></li>
+                                                            <li><a href="Documents/Aadhaar seeding of database of beneficiaries.pdf" target="_blank">Aadhar Seeding Of Database Of Beneficiaries</a></li>
+                                                            <li><a href="Documents/PMKisan-reimbursementofexpenses.pdf" target="_blank">Reimbursement Of Expenses On Block, District & State Level Launch Functions</a></li>
+                                                            <li><a href="Documents/SettingupofGrievanceMechanismbyStates.pdf" target="_blank">Setting Up Of Grievance Mechanism By States & Ut</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="javascript:void(0);" class="nav-link dropdownicon">Archive</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="Documents/OPERATIONAL GUIDELINES.pdf" target="_blank">Pre-Revised Operational Guidelines</a></li>
+                                                            <li><a href="Documents/Amendment to OG-converted.pdf" target="_blank">Amendment In Operational Guidelines</a></li>
+                                                            <li><a href="Documents/clarification_on_OGs_of_PMKISAN.PDF" target="_blank">Clarification To Operational Guidelines</a></li>
+                                                            <li><a href="Documents/OperationalGuidelinesManipur.PDF" target="_blank">Amendment To Operational Guidelines - Manipur</a></li>
+                                                            <li><a href="Documents/ClarificationsrelatingtoClauses.PDF" target="_blank">Clarifications Related To Clauses 3.3 & 3.4</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link dropdownicon" href="javascript:void(0);">PM-KMY</a>
+                                                <ul class="sub-menu">
+                                                    <li class="nav-item"><a href="Documents/PM-KMY - Operational Guidelines.pdf" target="_blank">Operational Guidelines</a></li>
+                                                    <li class="nav-item"><a href="Documents/PM-KMY - Salient Features.pdf" target="_blank">Salient Features</a></li>
+                                                    <li class="nav-item"><a href="Documents/PM-KMY - FAQs.pdf" target="_blank">FAQ</a></li>
+                                                    <li class="nav-item"><a href="http://pmkmy.gov.in" target="_blank">Ineligibility/Corrections/In process</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="LetterandCirculars.aspx" class="nav-link">Letter / Circulars</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="KnowAboutEKYC.aspx" class="nav-link">Know About eKYC Process</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link dropdownicon">Communication & Outreach</a>
+                                                <ul class="sub-menu">
+                                                    <li class="nav-item"><a href="PressRelease.aspx" class="nav-link">Press Release</a></li>
+                                                    <li class="nav-item"><a href="Leaflets.aspx" class="nav-link">Leaflets</a></li>
+                                                    <li class="nav-item"><a href="Creatives.aspx" class="nav-link">Creatives</a></li>
+                                                    <li class="nav-item"><a href="SocialMedia.aspx" class="nav-link">Social Media</a></li>
+                                                    <li class="nav-item"><a href="Newsletter.aspx" class="nav-link">Articles & Newsletter</a></li>
+                                                    <li class="nav-item"><a href="Videos.aspx" class="nav-link">Videos</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="mobile-menu"></div>
+                        </div>
+                        <div class="col-5 col-sm-1 col-sm-1">
+                            <div class="mixlogo">
+                                <img src="new_images/iyclogo.png" alt="UN International Year of Cooperative" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="bannerarea">
+
+            <div id="bannerslider" class="owl-carousel">
+                <div class="bannerphoto">
+                    <img src="new_images/22nd-Installment.jpeg" alt="Pradhan Mantri Kisan Samman Nidhi" />
+                </div>
+                <div class="bannerphoto">
+                    <img src="new_images/PradhanMantriKisanSammanNidhiVandeMatramHindi.jpg" alt="Pradhan Mantri Kisan Samman Nidhi" />
+                </div>
+                <div class="bannerphoto">
+                    <img src="new_images/PradhanMantriKisanSammanNidhiVandeMatramEnglish.jpg" alt="Pradhan Mantri Kisan Samman Nidhi" />
+                </div>
+                <div class="bannerphoto">
+                    <img src="new_images/PradhanMantriKisanSammanNidhiInugrate.jpg" alt="Pradhan Mantri Kisan Samman Nidhi" />
+                </div>
+                <div class="bannerphoto">
+                    <img src="new_images/PradhanMantriKisanSammanNidhi.jpg" alt="Pradhan Mantri Kisan Samman Nidhi" />
+                </div>
+                <div class="bannerphoto">
+                    <img src="new_images/JanjatiyaGauravDiwas.jpg" alt="Pradhan Mantri Kisan Samman Nidhi" />
+                </div>
+                <div class="bannerphoto">
+                    <img src="new_images/SabkaSathSabkaVikasSabkaViswas.jpg" alt="Pradhan Mantri Kisan Samman Nidhi" />
+                </div>
+                
+            </div>
+
+            <div class="quickaction">
+                <ul>
+                    <li class="text-center">
+                        <a href="RegistrationFormupdated.aspx">
+                            <span class="mdi mdi-cash-register"></span>
+                            <span class="newtitle">New Farmer Registration</span>
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a href="BeneficiaryStatus_New.aspx">
+                            <span class="mdi mdi-account-group"></span>
+                            <span class="newtitle">Know Your Status</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="formercorner">
+            <div class="container-fluid">
+                <div class="formercornercontent" id="MainContent">
+                    <p class="mb-2"><a href="https://pmevents.mygov.in/en/home/" target="_blank">The Hon’ble Prime Minister will release the 22nd installment of the PM-KISAN on 13th March 2026 from Guwahati, Assam.</a></p>
+                    <p class="mb-3">eKYC is MANDATORY for PMKISAN Registered Farmers. OTP Based eKYC is available on PMKISAN Portal or nearest CSC centres may be contacted for Biometric based eKYC.</p>
+                </div>
+                <div class="ministrycommontextarea">
+                    <h3 class="headingsubtext">Important Note:</h3>
+                    <ul class="ministrycommontextul text-start">
+                        <li>The Department has identified certain suspected cases that may fall under the exclusion criteria outlined in the PM-KISAN scheme guidelines. These include, for example:</li>
+                        <li class="ps-2">(i) Farmers who acquired land ownership after 01-02-2019,</li>
+                        <li class="ps-2">(ii) Cases where more than one family member is receiving benefits (e.g., both husband and wife, an adult member and minor, etc.).
+                        </li>
+                        <li class="ps-2">The benefits for such cases have been temporarily withheld till physical verification is completed.
+                        </li>
+                        <li class="ps-2">Farmers are requested to check their eligibility status on Know Your Status (KYS) of PM KISAN website/ mobile app or Kisan eMitra chatbot for further details.</li>
+                    </ul>
+                </div>
+                <div class="periodwisepayment">
+                    <div class="headingtext">Period Wise Number of Farmers Benefited</div>
+                    <ul id="periodwise" class="owl-carousel">
+                        <li id="Li1" class="border-righr">
+                            <span id="Trim2026_2" class="mb-0">9,35,79,869</span>
+                            <span class="beni-month">AUG-NOV 2025-26</span>
+                        </li>
+                        <li id="trim20" class="border-righr">
+                            <span id="Trim2026_1" class="mb-0">9,71,41,402</span>
+                            <span class="beni-month">APR-JUL 2025-26</span>
+                        </li>
+                        <li id="trim19" class="border-righr">
+                            <span id="Trim2025_3" class="mb-0">10,06,85,615</span>
+                            <span class="beni-month">DEC-MAR 2024-25</span>
+                        </li>
+                        <li id="trim18" class="border-righr">
+                            <span id="Trim2025_2" class="mb-0">9,59,28,628</span>
+                            <span class="beni-month">AUG-NOV 2024-25</span>
+                        </li>
+                        <li id="trim17" class="border-righr">
+                            <span id="Trim2025_1" class="mb-0">9,38,01,580</span>
+                            <span class="beni-month">APR-JUL 2024-25</span>
+                        </li>
+                        <li id="trim16" class="border-righr">
+                            <span id="Trim2024_3" class="mb-0">9,04,44,694</span>
+                            <span class="beni-month">DEC-MAR 2023-24</span>
+                        </li>
+                        <li id="trim15" class="border-righr">
+                            <span id="Trim2024_2" class="mb-0">8,12,16,697</span>
+                            <span class="beni-month">AUG-NOV 2023-24</span>
+                        </li>
+                        <li id="trim14" class="border-righr">
+                            <span id="Trim2024_1" class="mb-0">8,56,79,091</span>
+                            <span class="beni-month">APR-JUL 2023-24</span>
+                        </li>
+                        <li id="trim13" class="border-righr">
+                            <span id="Trim2023_3" class="mb-0">8,12,38,919</span>
+                            <span class="beni-month">DEC-MAR 2022-23</span>
+                        </li>
+                        <li id="trim12" class="border-righr">
+                            <span id="Trim2023_2" class="mb-0">8,57,40,741</span>
+                            <span class="beni-month">AUG-NOV 2022-23</span>
+                        </li>
+                        <li id="trim11" class="border-righr">
+                            <span id="Trim2023_1" class="&#32;mb-0">10,48,45,164</span>
+                            <span class="beni-month">APR-JUL 2022-23</span>
+                        </li>
+                        <li id="trim10" class="border-righr">
+                            <span id="Trim2022_3" class="&#32;mb-0">10,41,68,513</span>
+                            <span class="beni-month">DEC-MAR 2021-22</span>
+                        </li>
+                        <li id="trim9" class="border-righr">
+                            <span id="Trim2022_2" class="&#32;mb-0">10,34,47,290</span>
+                            <span class="beni-month">AUG-NOV 2021-22</span>
+                        </li>
+                        <li id="trim8" class="border-righr">
+                            <span id="Trim2022_1" class="mb-0">9,99,17,958</span>
+                            <span class="beni-month">APR-JUL 2021-22</span>
+                        </li>
+                        <li id="trim7" class="border-righr">
+                            <span id="Trim2021_3" class="mb-0">9,84,76,200</span>
+                            <span class="beni-month">DEC-MAR 2020-21</span>
+                        </li>
+                        <li id="trim6" class="border-righr">
+                            <span id="Trim2021_2" class="mb-0">9,72,27,546</span>
+                            <span class="beni-month">AUG-NOV 2020-21</span>
+                        </li>
+                        <li id="trim5" class="border-righr">
+                            <span id="Trim2021_1" class="mb-0">9,26,93,999</span>
+                            <span class="beni-month">APR-JUL 2020-21</span>
+                        </li>
+                        <li id="trim4" class="border-righr">
+                            <span id="Trim1920_3" class="&#32;mb-0">8,20,91,667</span>
+                            <span class="beni-month">DEC-MAR 2019-20</span>
+                        </li>
+                        <li id="trim3" class="border-righr">
+                            <span id="Trim1920_2" class="mb-0">7,66,01,029</span>
+                            <span class="beni-month">AUG-NOV 2019-20</span>
+                        </li>
+                        <li id="trim2" class="border-righr">
+                            <span id="Trim1920_1" class="mb-0">6,00,34,872</span>
+                            <span class="beni-month">APR-JUL 2019-20</span>
+                        </li>
+                        <li id="trim1" class="border-righr">
+                            <span id="Trim1819_3" class="mb-0">3,16,21,743</span>
+                            <span class="beni-month">DEC-MAR 2018-19</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="paymentsuccess">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-5 col-md-5">
+                        <div class="headingtext mt-5">Payment Success</div>
+                        <div class="container p-0">
+                            <div class="financialselectarea">
+                                <div class="row">
+                                    <div class="col-sm-5 col-md-5 col-lg-5">
+                                        <div id="FinYrMap"></div>
+                                    </div>
+                                    <div class="col-sm-5 col-md-5 col-lg-5">
+                                        <div id="PeriodMap"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div id="MapDataAson"></div>
+                            </div>
+                        </div>
+                        <div class="farmercorner1">
+                            <div id="mapDivnew"></div>
+                            <span id="errorOccuredMsg" style="visibility: hidden"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-7 col-md-7">
+                        <div class="headingtext mt-5">Farmers Corner</div>
+                        <div class="farmercorner">
+                            <ul class="farmerul row justify-content-center">
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="RegistrationFormupdated.aspx">
+
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-cash-register"></span>
+                                            <span class="headingsubtext">New Farmer Registration</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="SearchSelfRegisterfarmerDetailsnewUpdated.aspx">
+
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-cash-register"></span>
+                                            <span class="headingsubtext">Edit / Update Self Registration</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="FarmerStatus.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-clipboard-text"></span>
+                                            <span class="headingsubtext">Status of Self Registered Farmer/ CSC Farmers</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="SearchBeneficiaryInformationUpdate.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-account-search"></span>
+                                            <span class="headingsubtext">Update Missing Information</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="BeneficiaryStatus_New.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-account-group"></span>
+                                            <span class="headingsubtext">Know Your Status</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="MobileUpdation_Pub.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-cellphone"></span>
+                                            <span class="headingsubtext">Update Mobile Number</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="Recovery_Public.aspx">
+                                        <div class="farmerbox">
+                                            <img src="new_images/rupeerefund.png" class="refundicon" alt="NIC Logo" />
+                                            <span class="headingsubtext">Online Refund</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="pmkisanbenefitsurrender.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-folder-download-outline"></span>
+                                            <span class="headingsubtext">Voluntary Surrender of PM Kisan Benefits</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="Rpt_BeneficiaryStatus_pub.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-folder-account-outline"></span>
+                                            <span class="headingsubtext">Beneficiary List</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="SearchSNODetails.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-folder-account-outline"></span>
+                                            <span class="headingsubtext">Search your Point of Contact (POC)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="Pmkisanbenefitsurrender_revocation.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-folder-account-outline"></span>
+                                            <span class="headingsubtext">Voluntary Surrender Revocation</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="revocation_status.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-folder-account-outline"></span>
+                                            <span class="headingsubtext">Surrender Revocation Status</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="UpdationOfAddressForIneligible.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-folder-account-outline"></span>
+                                            <span class="headingsubtext">State Transfer Request</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="Grievance.aspx">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-headphones"></span>
+                                            <span class="headingsubtext">Helpdesk - Query Form</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="https://play.google.com/store/apps/details?id=com.nic.project.pmkisan">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-google-play"></span>
+                                            <span class="headingsubtext">Download PM Kisan Mobile App</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="https://pmkisan.gov.in/Documents/RevisedFAQ.pdf">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-frequently-asked-questions"></span>
+                                            <span class="headingsubtext">FAQ</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-6 col-sm-3 col-md-3">
+                                    <a href="/Documents/Kcc.pdf">
+                                        <div class="farmerbox">
+                                            <span class="mdi mdi-folder-download-outline"></span>
+                                            <span class="headingsubtext">Download KCC Form</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pmkisanscheme">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-5 col-md-5">
+                        <div class="usefullinksarea">
+                            <div class="headingtext">Useful Links</div>
+                            <ul class="commonul">
+                                <li><a href="Documents/Operational Guidelines of Financing Facility under Agriculture Infrastructure Fund.pdf"><u>Financing Facility Under Agriculture Infrastructure</u></a></li>
+                                <li><a href="Documents/finalKCCCircular.pdf"><u>Campaign for Saturation of all PM KISAN beneficiaries with Kisan Credit Cards (KCC)</u></a></li>
+                                <li><a href="https://pmindiawebcast.nic.in/2021/9aug21.html"><u>Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Ministry of India Shri Narendra Modi on 9th August 2021 12:30 PM IST</u></a></li>
+                                <li><a href="https://pmindiawebcast.nic.in/2021/14May21.html"><u>Interaction with Farmers and Release of PM-Kisan Samman Nidhi by Hon'ble Prime Minister of India Shri Narendra Modi on 14th May 2021 11:00 AM IST</u></a></li>
+                                <li><a href="https://webcast.gov.in/agriculture/"><u>Webcast of Hon'ble Prime Minister's event on the occasion of the " One Year Completion of the PM-Kisan and Distribution of Kisan Credit Cards (KCC) "</u></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-7 col-md-7">
+                        <div class="usefullinksarea" id="About">
+                            <div class="headingtext">PM-KISAN Scheme</div>
+                            <ul class="commonul">
+                                <li><a>PM Kisan is a Central Sector scheme with 100% funding from Government of India.</a></li>
+                                <li><a>It has become operational from 1.12.2018.</a></li>
+                                
+                                <li><a>Under the scheme an income support of 6,000/- per year in three equal installments will be provided to all land holding farmer families.</a></li>
+                                
+                                <li><a>Definition of family for the scheme is husband, wife and minor children.</a></li>
+                                
+                                <li><a>State Government and UT administration will identify the farmer families which are eligible for support as per scheme guidelines.</a></li>
+                                
+                                <li><a>The fund will be directly transferred to the bank accounts of the beneficiaries.</a></li>
+                                
+                                <li><a>There are various Exclusion Categories for the scheme.</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="usefullinksarea mt-5" id="SchemeExclusion">
+                            <div class="headingtext">Scheme Exclusion</div>
+                            
+                            <p>The following categories of beneificiaries of higher economic status shall not be elligible for benefit under the scheme.</p>
+                            
+                            <ol>
+                                <li>All Institutional Land holders.</li>
+                                
+                                <li>Farmer families which belong to one or more of the following categories:.</li>
+                                
+                            </ol>
+                            <ul class="commonul">
+                                <li><a>Former and present holders of constitutional posts</a></li>
+                                
+                                <li><a>Former and present Ministers/ State Ministers and former/present Members of LokSabha/ RajyaSabha/ State Legislative Assemblies/ State Legislative Councils,former and present Mayors of Municipal Corporations, former and present Chairpersons of District Panchayats.</a></li>
+                                
+                                <li><a>All serving or retired officers and employees of Central/ State Government Ministries /Offices/Departments and its field units Central or State PSEs and Attached offices /Autonomous Institutions under Government as well as regular employees of the Local Bodies
+                                    <br />
+                                    (Excluding Multi Tasking Staff /Class IV/Group D employees)</a></li>
+                                
+                                <li><a>All superannuated/retired pensioners whose monthly pension is Rs.10,000/-or more
+                                    <br />
+                                    (Excluding Multi Tasking Staff / Class IV/Group D employees) of above category  </a></li>
+                                <li><a>All Persons who paid Income Tax in last assessment year</a></li>
+                                <li><a>Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and Architects registered with Professional bodies and carrying out profession by undertaking practices.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footeraerea">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 footelogo">
+                            <div class="alignitemscenter">
+                                <div class="alignitemscenterinner">
+                                    <img src="new_images/niclogo.png" alt="NIC Logo" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-8 col-md-8">
+                            <div class="alignitemscenter">
+                                <div class="alignitemscenterinner">
+                                    <ul class="footerlink">
+                                        <li><a href="Disclaimer.aspx" target="_blank">Disclaimer</a></li>
+                                        <li><a href="TermsandConditions.aspx">Terms and Conditions</a></li>
+                                        <li><a href="PrivacyPolicy.aspx">Privacy Policy</a></li>
+                                        <li><a href="CopyrightPolicy.aspx">Copyright Policy</a></li>
+                                        <li><a href="HyperlinkingPolicy.aspx">Hyperlinking Policy</a></li>
+                                        <li><a href="javascript:void(0);">Accessibility</a></li>
+                                        <li><a href="MobileAppPrivacyPolicy.aspx">Privacy Policy For Mobile App</a></li>
+                                    </ul>
+                                    <div class="copyrighttext">
+                                        <p>Site is designed and hosted by National Informatics Centre. Contents published and managed by Department of Agriculture & Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India.</p>
+                                        <p>Page Last Updated on : 20/06/2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 footelogo footerlogodigital">
+                            <div class="alignitemscenter">
+                                <div class="alignitemscenterinner">
+                                    <img src="new_images/digitalindia.png" alt="Digital India" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!----- POPUP------->
+        
+        <!----- Latest POPUP------->
+        <div id="onload" class="modal fade" role="dialog">
+<div class="modal-dialog">
+    <button type="button" class="closebtn" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    <div class="modal-content">
+        <div class="modal-body">
+            
+                <a href="#" target="_blank">
+                    <img src="new_images/PMKisan-22nd.jpeg" alt="22nd-Installment PM-KISAN" class="img-fluid" />
+                </a>                                 
+        </div>
+    </div>
+</div>
+</div>
+        <!-- footer logo section -->
+        
+        <script src="new_js/jquery-3.7.1.min.js"></script>
+        <script src="new_js/popper.min.js"></script>
+        <script src="new_js/bootstrap.min.js"></script>
+        <script src="new_js/owl.carousel.min.js"></script>
+        <script src="new_js/jquery.meanmenu.min.js"></script>
+        <script src="new_js/custom.js"></script>
+        
+        <script type="text/javascript">
+            window.onload = () => {
+                $('#onload').modal('show');
+            }
+            $(".closebtn").click(function () {
+                $(".modal").css("display", "none");
+                $(".modal-backdrop.fade.show").css("display", "none");
+                $("body").css("overflow", "auto");
+            });
+
+            $(".closebtn").click(function () {
+                $(".modal").removeClass("show");
+            });
+        </script>
+        
+        
+        <input type="hidden" name="HF_Secure" id="HF_Secure" />
+        <input type="hidden" name="HiddenField1" id="HiddenField1" />
+        <script src="HighChartsJS/HighMaps.js"></script>
+        <script src="HighChartsJS/exporting.js"></script>
+        <script src="HighChartsJS/offline-exporting.js"></script>
+        <script src="HighChartsJS/accessibility.js"></script>
+        
+        <script>
+            (function ($) {
+                "use strict";
+                jQuery('#mobile-menu').meanmenu({
+                    meanMenuContainer: '.mobile-menu',
+                    meanScreenWidth: "991"
+                });
+            })(jQuery);
+        </script>
+        <script>
+            function handlePreloader() {
+                if ($('.preloader').length) {
+                    $('body').removeClass('active-preloader-ovh');
+                    $('.preloader').fadeOut();
+                }
+            }
+            jQuery(window).on('load', function () {
+                (function ($) {
+                    handlePreloader()
+                    // thmScrollAnim();
+                })(jQuery);
+            });
+            /* preloader */
+        </script>
+        <script>
+            $(function () {
+                var paused = false;
+                $('#whtnew').carousel({
+                    interval: 2000,
+                    pause: false
+                });
+                /* Play trigger */
+                $('.pause-btn').click(function () {
+                    var state = (paused) ? 'cycle' : 'pause';
+                    paused = (paused) ? false : true;
+                    $('#whtnew').carousel(state);
+                    $(this).find('i').toggleClass('fa-play fa-pause');
+                });
+            })
+        </script>
+        <script>
+            $(function () {
+                var paused = false;
+                $('#footernew').carousel({
+                    interval: 2000,
+                    pause: false
+                });
+                /* Play trigger */
+                $('.footernew-pause-btn').click(function () {
+                    var state = (paused) ? 'cycle' : 'pause';
+                    paused = (paused) ? false : true;
+                    $('#footernew').carousel(state);
+                    $(this).find('i').toggleClass('fa-play fa-pause');
+                });
+            })
+        </script>
+
+
+        
+        <script>
+            $(document).ready(function () {
+                $('.count').each(function () {
+                    $(this).prop('Counter', 0).animate({
+                        Counter: $(this).text()
+                    }, {
+                        duration: 4000,
+                        easing: 'swing',
+                        step: function (now) {
+                            $(this).text(Math.ceil(now).toLocaleString('en'));
+                        }
+                    });
+                });
+            });
+        </script>
+        <input type="hidden" name="as_sfid" value="AAAAAAXUou3w6lMrBgD4akowzimwFJTDKFq6EtVCQzYI6kWN9Uiq-t6l30zZrbe6eKVcEAd1mEsmoDJrKNwWf3Gs05YEfnmopEKvaeaklIhb_HwTaBO-foU0lPdZ-iAbnQM1UOuiLIa04f7l_H-dVAIZ6Dfb7Lyix33c4Vf4vOuyVlPMiw==" /><input type="hidden" name="as_fid" value="e10216efebcd2fd52dbd8db309bd85805fe36c24" />
+        <div class="bharatchatbot">
+            <a href="https://chat-vistaar.da.gov.in/chat" id="myBtn" target="_blank">
+                <span class="text animated bounce">Bharati</span>
+                <img alt="Bharat Vistaarâ€“Bharati AI Chatbot" src="new_images/Bharati-chatc.png">
+            </a>
+        </div>
+		
+		<div class="chatbot">
+            <a href="https://kisanemitra.gov.in/" id="myBtn" target="_blank">
+                <span class="text animated bounce">Need Help? Ask Kisan-eMitra</span>
+                <img src="new_images/chatc.png" alt="PMKisan Chatbot">
+            </a>
+        </div>
+		
+		
+    
+
+<script type="text/javascript">
+//<![CDATA[
+PeriodWiseMapRender();//]]>
+</script>
+</form>
+</body>
+</html>

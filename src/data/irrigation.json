@@ -1,0 +1,215 @@
+{
+  "category": "Irrigation",
+  "level": "STATE",
+  "state": "MH",
+  "items": [
+    {
+      "scheme_name": "Rainfed Area Development Programme",
+      "component_name": "Digging of farm pond / well",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Assistance up to Rs 60,000",
+      "eligibility": "Farmers in rainfed areas",
+      "how_to_apply": "Apply through nearest Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Rainfed Area Development Programme",
+      "component_name": "Tube well construction",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 15,000 to Rs 25,000 per farm family",
+      "eligibility": "Farm families in rainfed areas",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Rainfed Area Development Programme",
+      "component_name": "Procurement of lift irrigation system",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 10,000 per farm family",
+      "eligibility": "Farm families in rainfed areas",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "NFSM-Pulses / ISOPOM",
+      "component_name": "Pipes to carry water from source to field (up to 800 meters)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 15,000 per farmer",
+      "eligibility": "Farmers under NFSM-Pulses or ISOPOM",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Oil Palm Area Expansion Programme (RKVY)",
+      "component_name": "Drip irrigation system for oil palm",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 12,450 per farmer (9m x 9m spacing)",
+      "eligibility": "Farmers cultivating oil palm",
+      "how_to_apply": "Apply through Agriculture Department under RKVY",
+      "contact": {
+        "office": "District Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Oil Palm Area Expansion Programme (RKVY)",
+      "component_name": "Supply of diesel pump sets for oil palm",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 10,000 per set",
+      "eligibility": "Farmers cultivating oil palm",
+      "how_to_apply": "Apply through Agriculture Department under RKVY",
+      "contact": {
+        "office": "District Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Extending Green Revolution to Eastern India",
+      "component_name": "Bore-well construction",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "100% assistance up to Rs 30,000",
+      "eligibility": "Eligible farmers under EGR-EI programme",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Extending Green Revolution to Eastern India",
+      "component_name": "Shallow tube wells",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "100% assistance up to Rs 12,000",
+      "eligibility": "Eligible farmers under EGR-EI programme",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Extending Green Revolution to Eastern India",
+      "component_name": "Pump set",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "50% subsidy subject to maximum Rs 10,000",
+      "eligibility": "Eligible farmers under EGR-EI programme",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Extending Green Revolution to Eastern India",
+      "component_name": "In-well boring",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Assistance up to Rs 20,000",
+      "eligibility": "Eligible farmers under EGR-EI programme",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Extending Green Revolution to Eastern India",
+      "component_name": "Pipeline (per 300 meters)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Assistance up to Rs 20,000",
+      "eligibility": "Eligible farmers under EGR-EI programme",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "SCP / TSP / OTSP",
+      "component_name": "Bullock cart",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Assistance up to Rs 15,000",
+      "eligibility": "Eligible SC/ST/OTSP farmers",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "SCP / TSP / OTSP",
+      "component_name": "Old well repairing",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Assistance up to Rs 30,000",
+      "eligibility": "Eligible SC/ST/OTSP farmers",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+/* Global reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f5f7f6;
+  color: #222;
+}
+
+/* Page container */
+.app-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 24px;
+}
+
+/* Header */
+.app-header {
+  margin-bottom: 20px;
+}
+
+.app-header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #1b5e20;
+}
+
+.app-header p {
+  margin-top: 6px;
+  color: #555;
+}
+
+/* ===================== LANGUAGE SWITCHER ===================== */
+
+.lang-switcher {
+  display: flex;
+  gap: 5px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-top: 6px;
+  background: #f1f8f1;
+  border: 1.5px solid #c8e6c9;
+  border-radius: 9999px;
+  padding: 4px 8px;
+}
+
+.lang-switcher-icon {
+  font-size: 16px;
+  margin-right: 2px;
+  line-height: 1;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  color: #2e7d32;
+  transition: all 0.18s ease;
+  white-space: nowrap;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.lang-btn:hover {
+  background: #c8e6c9;
+  color: #1b5e20;
+}
+
+.lang-btn--active {
+  background: #1b5e20;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(27,94,32,0.25);
+}
+
+.lang-btn--active:hover {
+  background: #145a1f;
+}
+
+
+/* Filters section */
+.filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* The sleek 'Chip' Button Design (KEPT as per user request) */
+.chip {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 6px 16px;
+  border-radius: 9999px; /* Pill shape */
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+  color: #222;
+}
+
+.chip:hover {
+  background: #e8f5e9;
+  transform: translateY(-1px);
+}
+
+.chip.active {
+  background: #1b5e20;
+  color: white;
+  border-color: #1b5e20;
+}
+
+/* ===================== FILTER DROPDOWN ===================== */
+
+.fdd-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* The pill trigger button */
+.fdd-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #ffffff;
+  border: 1.5px solid #ddd;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 13.5px;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.2s;
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.fdd-trigger:hover {
+  border-color: #1b5e20;
+  background: #f1f8f1;
+}
+
+.fdd-trigger--active {
+  background: #1b5e20;
+  border-color: #1b5e20;
+  color: #fff;
+}
+
+.fdd-trigger--active:hover {
+  background: #145a1f;
+}
+
+.fdd-trigger-icon {
+  font-size: 14px;
+}
+
+.fdd-trigger-label {
+  font-weight: 600;
+}
+
+.fdd-trigger-value {
+  font-weight: 400;
+  opacity: 0.85;
+  font-size: 12.5px;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fdd-chevron {
+  display: inline-block;
+  font-size: 12px;
+  transition: transform 0.2s;
+  margin-left: 2px;
+}
+
+.fdd-chevron--up {
+  transform: rotate(180deg);
+}
+
+/* The expanded panel */
+.fdd-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 200px;
+  max-width: 320px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  z-index: 1000;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  animation: fdd-pop 0.15s ease-out;
+}
+
+@keyframes fdd-pop {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Each option inside the panel */
+.fdd-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 13.5px;
+  color: #333;
+  text-align: left;
+  transition: background 0.15s;
+  position: relative;
+}
+
+.fdd-option:hover {
+  background: #f1f8f1;
+  color: #1b5e20;
+}
+
+.fdd-option--selected {
+  background: #e8f5e9;
+  color: #1b5e20;
+  font-weight: 600;
+}
+
+.fdd-check {
+  font-size: 11px;
+  color: #1b5e20;
+  flex-shrink: 0;
+}
+
+/* Search Input */
+.search-wrapper {
+  margin-bottom: 15px;
+}
+
+.search-input {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 100%;
+}
+
+/* Scheme grid */
+.scheme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+/* Scheme card (Reverted background but KEPT hover animation) */
+.scheme-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scheme-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.scheme-card h3 {
+  margin: 0 0 6px;
+  color: #2e7d32;
+  font-size: 18px;
+}
+
+.scheme-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Badge container */
+.badges-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.badge-season {
+  background: #e8f5e9;
+  color: #1b5e20;
+}
+
+/* View button - Kept new button style */
+.view-btn {
+  margin-top: 15px;
+  background: #1b5e20;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.view-btn:hover {
+  background: #145a1f;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 24px;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: #1b5e20;
+  font-size: 22px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+/* ===================== NEWS TICKER ===================== */
+
+.news-ticker-wrapper {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #0a3d0a 0%, #155724 100%);
+  border-radius: 8px;
+  padding: 0;
+  margin-bottom: 22px;
+  overflow: hidden;
+  min-height: 42px;
+  box-shadow: 0 2px 12px rgba(27, 94, 32, 0.35);
+  border: 1px solid rgba(255,255,255,0.08);
+  cursor: default;
+}
+
+.news-ticker-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #e53935;
+  color: #fff;
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  padding: 0 14px;
+  height: 42px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(1.5); }
+}
+
+.news-ticker-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  animation: pulse-dot 1.2s ease-in-out infinite;
+}
+
+.news-ticker-viewport {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  height: 42px;
+  /* soft fade edges */
+  mask-image: linear-gradient(to right, transparent 0px, black 30px, black calc(100% - 30px), transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0px, black 30px, black calc(100% - 30px), transparent 100%);
+}
+
+.news-ticker-track {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  will-change: transform;
+  height: 42px;
+}
+
+.news-ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #e8f5e9;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 0 40px;
+  letter-spacing: 0.2px;
+}
+
+.news-ticker-bullet {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.news-ticker-source {
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.12);
+  color: #a5d6a7;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 0 14px;
+  height: 42px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+}
+
+.news-ticker-source:hover {
+  background: rgba(255,255,255,0.22);
+  color: #fff;
+}

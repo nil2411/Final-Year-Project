@@ -1,0 +1,172 @@
+{
+  "category": "Seeds",
+  "level": "STATE",
+  "state": "MH",
+  "items": [
+    {
+      "scheme_name": "Integrated Cereals Development Programme",
+      "component_name": "Distribution of Certified Seeds (Paddy & Wheat)",
+      "season": [
+        "Kharif",
+        "Rabi"
+      ],
+      "benefit": "50% of cost or Rs 5 per kg (whichever is less)",
+      "eligibility": "Farmers growing paddy and wheat",
+      "how_to_apply": "Apply through Taluka Agriculture Officer during sowing season",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Integrated Cereals Development Programme",
+      "component_name": "Distribution of Certified Seeds (Bajra, Sorghum, Ragi, Barley)",
+      "season": [
+        "Kharif",
+        "Rabi"
+      ],
+      "benefit": "50% of cost or Rs 8 per kg (whichever is less)",
+      "eligibility": "Farmers growing bajra, sorghum, ragi and barley",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Integrated Cereals Development Programme",
+      "component_name": "Distribution of Hybrid Bajra / Sorghum Seeds",
+      "season": [
+        "Kharif"
+      ],
+      "benefit": "Rs 10 per kg",
+      "eligibility": "Farmers growing hybrid bajra or sorghum",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Food Security Mission",
+      "component_name": "Distribution of Certified Seeds (All Pulses)",
+      "season": [
+        "Kharif",
+        "Rabi"
+      ],
+      "benefit": "50% of cost or Rs 12 per kg (whichever is less)",
+      "eligibility": "Farmers growing pulses such as Arhar, Moong, Urad, Gram, Rajma etc.",
+      "how_to_apply": "Apply through Taluka Agriculture Officer during sowing season",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "ISOPOM",
+      "component_name": "Distribution of Certified Seeds (Oilseeds & Maize)",
+      "season": [
+        "Kharif",
+        "Rabi"
+      ],
+      "benefit": "50% of cost or Rs 12 per kg (whichever is less)",
+      "eligibility": "Farmers growing oilseeds and maize",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Oil Palm Area Expansion Programme (RKVY)",
+      "component_name": "Supply of Oil Palm Seedlings",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "85% of cost with ceiling of Rs 1000 per hectare",
+      "eligibility": "Farmers cultivating oil palm",
+      "how_to_apply": "Apply through Agriculture Department under RKVY",
+      "contact": {
+        "office": "District Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Cotton Technology Mission",
+      "component_name": "Distribution of Certified Cotton Seeds",
+      "season": [
+        "Kharif"
+      ],
+      "benefit": "Rs 20 per kg",
+      "eligibility": "Cotton farmers",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Seed Village Programme",
+      "component_name": "Distribution of Foundation / Certified Seeds",
+      "season": [
+        "Kharif",
+        "Rabi"
+      ],
+      "benefit": "50% of cost of seeds",
+      "eligibility": "Farmers participating in seed village programme",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Seed Village Programme",
+      "component_name": "Seed Storage Bin (20 Quintal Capacity)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "25% subsidy up to Rs 2000 (33% up to Rs 3000 for SC/ST)",
+      "eligibility": "Farmers under Seed Village Programme",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Seed Village Programme",
+      "component_name": "Seed Storage Bin (10 Quintal Capacity)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "25% subsidy up to Rs 1000 (33% up to Rs 1500 for SC/ST)",
+      "eligibility": "Farmers under Seed Village Programme",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    }
+  ]
+}

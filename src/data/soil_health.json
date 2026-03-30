@@ -1,0 +1,297 @@
+{
+  "category": "Soil Health, Soil Conservation and Fertilizers",
+  "level": "STATE",
+  "state": "MH",
+  "items": [
+    {
+      "scheme_name": "ISOPOM",
+      "component_name": "Supply of gypsum / pyrite / lime / dolomite",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 750 per hectare",
+      "eligibility": "Farmers having acidic or saline soil as identified through soil testing",
+      "how_to_apply": "Apply through nearest Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "ISOPOM",
+      "component_name": "Supply of micronutrient elements in deficient areas",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 500 per hectare",
+      "eligibility": "Farmers in micronutrient-deficient areas based on soil test reports",
+      "how_to_apply": "Apply through nearest Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Horticulture Mission",
+      "component_name": "Adoption of Organic Farming",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 10,000 per hectare",
+      "eligibility": "Farmers adopting organic farming practices",
+      "how_to_apply": "Contact Sub-Divisional Agriculture Officer",
+      "contact": {
+        "office": "Sub-Divisional Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Horticulture Mission",
+      "component_name": "Vermi Compost Unit (1 hectare area)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 30,000 per unit",
+      "eligibility": "Farmers having minimum one hectare land",
+      "how_to_apply": "Contact District Agriculture Officer",
+      "contact": {
+        "office": "District Superintending Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Work Plan Organic Farming Scheme",
+      "component_name": "Vermi Compost Unit",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 2,500 per unit",
+      "eligibility": "Farmers practicing or adopting organic farming",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Work Plan Organic Farming Scheme",
+      "component_name": "Biodynamic Compost",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 250 per unit",
+      "eligibility": "Organic farmers",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Work Plan Organic Farming Scheme",
+      "component_name": "CPP Culture Unit",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 250 per unit",
+      "eligibility": "Organic farmers",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Work Plan Organic Farming Scheme",
+      "component_name": "Polythene Vermi Bed",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 5,000 per unit",
+      "eligibility": "Organic farmers",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Work Plan Organic Farming Scheme",
+      "component_name": "Promotion of Integrated Nutrient Management",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 1,000 per hectare",
+      "eligibility": "Farmers adopting integrated nutrient management practices",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Soil Survey & Soil Testing Scheme",
+      "component_name": "Soil and Water Testing Services",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "NPK: Rs 15/sample, Micronutrients: Rs 200/sample, pH/EC: Rs 250/sample, Water testing: Rs 100/sample",
+      "eligibility": "All farmers",
+      "how_to_apply": "Submit samples at authorized soil testing laboratory",
+      "contact": {
+        "office": "Soil Testing Laboratory / Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Project on Management of Soil Health and Fertility",
+      "component_name": "Promotion of Organic Manuring",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 500 per hectare",
+      "eligibility": "Farmers using organic manure",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Project on Management of Soil Health and Fertility",
+      "component_name": "Supply of lime / basic slag for reclaiming acidic soil",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 500 per hectare (25% of cost)",
+      "eligibility": "Farmers with acidic soil",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Project on Management of Soil Health and Fertility",
+      "component_name": "Promotion and distribution of micronutrient elements",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 500 per hectare",
+      "eligibility": "Farmers in micronutrient deficient areas",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Project on Organic Farming",
+      "component_name": "Establishment of compost unit from agricultural waste",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "33% subsidy on project cost up to Rs 60 lakh (100 TPD capacity)",
+      "eligibility": "Entrepreneurs / organizations setting up compost units",
+      "how_to_apply": "Apply through Agriculture Department (credit linked)",
+      "contact": {
+        "office": "District Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Project on Organic Farming",
+      "component_name": "Establishment of bio-fertilizer / bio-pesticide unit",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "25% subsidy on project cost up to Rs 40 lakh (200 tons capacity)",
+      "eligibility": "Entrepreneurs / organizations setting up bio-input units",
+      "how_to_apply": "Apply through Agriculture Department (credit linked)",
+      "contact": {
+        "office": "District Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Integrated Cereals Development Programme",
+      "component_name": "Supply of micronutrients for wheat, pulses and rice",
+      "season": [
+        "Rabi",
+        "Kharif"
+      ],
+      "benefit": "50% of cost limited to Rs 500 per hectare",
+      "eligibility": "Farmers growing wheat, pulses and rice",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Oilseed Production Programme",
+      "component_name": "Supply of micronutrients in deficient areas",
+      "season": [
+        "Kharif",
+        "Rabi"
+      ],
+      "benefit": "50% of cost or Rs 500 per hectare (whichever is less)",
+      "eligibility": "Farmers growing oilseed crops",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Centrally Sponsored Sugarcane Development Scheme",
+      "component_name": "Distribution of gypsum, micronutrients and green manuring",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "50% of cost limited to Rs 1,000 per hectare",
+      "eligibility": "Sugarcane farmers",
+      "how_to_apply": "Apply through Sugarcane Development Office",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    }
+  ]
+}

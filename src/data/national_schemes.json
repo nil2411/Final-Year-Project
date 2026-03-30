@@ -1,0 +1,247 @@
+{
+    "category": "Ministry Major Schemes",
+    "level": "NATIONAL",
+    "state": "INDIA",
+    "items": [
+        {
+            "scheme_name": "Agriculture Infrastructure Fund",
+            "component_name": "Medium-long term debt financing",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "3% interest subvention and credit guarantee up to Rs. 2 crore for post-harvest management infrastructure.",
+            "eligibility": "Farmers, FPOs, PACS, Marketing Cooperative Societies, Self Help Groups, and agri-entrepreneurs.",
+            "how_to_apply": "Apply through the online AIF portal or approach your commercial bank/cooperative bank.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/AIF_Guidelines_English_12Jun24.pdf"
+            },
+            "last_updated": "12-06-2024"
+        },
+        {
+            "scheme_name": "PM-Kisan Samman Nidhi",
+            "component_name": "Direct Income Support",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Rs. 6000 per year transferred directly to the bank accounts in three equal installments of Rs. 2000.",
+            "eligibility": "All landholding farmers' families in the country, subject to exclusion criteria like institutional landholders and high-income earners.",
+            "how_to_apply": "Apply via PM-Kisan portal, CSCs, or local revenue officers (Patwari).",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://pmkisan.gov.in/"
+            },
+            "last_updated": "28-12-2023"
+        },
+        {
+            "scheme_name": "ATMA",
+            "component_name": "Agricultural Technology Management Agency",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Facilitates technology dissemination, farmer training, exposure visits, and demonstrations at the district level.",
+            "eligibility": "All active farmers looking to upgrade their farming techniques and adopt new technology.",
+            "how_to_apply": "Contact the district ATMA office or Block Technology Manager.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/Revised_guidelinesATMA_2025.pdf"
+            },
+            "last_updated": "04-04-2025"
+        },
+        {
+            "scheme_name": "AGMARKNET",
+            "component_name": "Agricultural Marketing Information Network",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Provides daily prices and arrivals of agricultural commodities in wholesale markets across India.",
+            "eligibility": "Open for all farmers and traders to view market trends and make informed selling decisions.",
+            "how_to_apply": "Access the AGMARKNET portal or download the app; no formal application required.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/Agmarknet_Guidelines.pdf"
+            },
+            "last_updated": "14-03-2014"
+        },
+        {
+            "scheme_name": "Horticulture",
+            "component_name": "Mission for Integrated Development of Horticulture (MIDH)",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Financial assistance for area expansion, cold storage, greenhouses, and planting material creation.",
+            "eligibility": "Farmers, FPOs, and cooperatives willing to cultivate fruits, vegetables, and flowers.",
+            "how_to_apply": "Submit proposal to State Horticulture Mission or District Horticulture Officer.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/midh_Guidelines.pdf"
+            },
+            "last_updated": "05-04-2014"
+        },
+        {
+            "scheme_name": "Online Pesticide Registration",
+            "component_name": "Regulatory and Quality Control",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Streamlines the process of registering, importing, and manufacturing safe crop protection chemicals.",
+            "eligibility": "Agri-chemical manufacturers, importers, and researchers.",
+            "how_to_apply": "Apply online through the CIB&RC portal (Crop Assessment Portal).",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/Pesticides_Registration.pdf"
+            },
+            "last_updated": "23-09-2009"
+        },
+        {
+            "scheme_name": "Plant Quarantine Clearance",
+            "component_name": "Phytosanitary Certification",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Prevents introduction of exotic pests and diseases and facilitates safe export/import of agricultural commodities.",
+            "eligibility": "Exporters and importers of plants and plant materials.",
+            "how_to_apply": "Apply online through the Plant Quarantine Information System (PQIS).",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/Quarantine_Guidelinespdf.pdf"
+            },
+            "last_updated": "05-01-2011"
+        },
+        {
+            "scheme_name": "DBT in Agriculture",
+            "component_name": "Direct Benefit Transfer",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Ensures direct transfer of subsidies (like seeds and machinery) into the Aadhaar-linked bank accounts of farmers.",
+            "eligibility": "Any farmer availing government subsidies mapped to the DBT portal.",
+            "how_to_apply": "Link Bank Account to Aadhaar and register on the State Agri DBT portal.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/Guideline_DBTinAgriculture.pdf"
+            },
+            "last_updated": "12-05-2014"
+        },
+        {
+            "scheme_name": "Pradhanmantri Krishi Sinchayee Yojana",
+            "component_name": "Per Drop More Crop / Micro Irrigation",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Subsidy provided for installing drip and sprinkler irrigation systems to improve water use efficiency.",
+            "eligibility": "All farmers, preferably those in water-stressed areas.",
+            "how_to_apply": "Apply online on the respective state micro-irrigation portal or through the district agriculture office.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/Guidelines_PMKSY.pdf"
+            },
+            "last_updated": "06-05-2016"
+        },
+        {
+            "scheme_name": "Kisan Call Center",
+            "component_name": "Toll-Free Farmer Helpline",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Immediate agricultural advice from experts in local languages via toll-free number 1800-180-1551.",
+            "eligibility": "All farmers across India.",
+            "how_to_apply": "Dial 1800-180-1551 from any mobile or landline network.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://mkisan.gov.in/Home/KCCDashboard"
+            },
+            "last_updated": "01-05-2015"
+        },
+        {
+            "scheme_name": "mKisan",
+            "component_name": "SMS Portal for Farmers",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Receive personalized agricultural advisories via SMS directly to your mobile phone based on crop and location.",
+            "eligibility": "Any farmer possessing a mobile phone.",
+            "how_to_apply": "Register mobile number on the mKisan portal or send USSD codes to opt-in.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://mkisan.gov.in/"
+            },
+            "last_updated": "06-05-2015"
+        },
+        {
+            "scheme_name": "Jaivik Kheti",
+            "component_name": "E-Commerce Portal for Organic Farming",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Connects organic farmers directly with buyers and promotes bulk/retail sale of certified organic produce.",
+            "eligibility": "Farmers certified under PGS-India or NPOP.",
+            "how_to_apply": "Register as a seller on the Jaivik Kheti online portal.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/Jaivik_Kheti_Guidelines.pdf"
+            },
+            "last_updated": "18-05-2015"
+        },
+        {
+            "scheme_name": "e-Nam",
+            "component_name": "National Agriculture Market",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "A pan-India electronic trading portal that networks existing APMC mandis to create a unified national market.",
+            "eligibility": "Farmers wishing to sell their produce directly directly to buyers across India.",
+            "how_to_apply": "Register at the nearest integrated APMC mandi or online through the e-NAM app/portal.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/Enamguidelines.pdf"
+            },
+            "last_updated": "04-10-2016"
+        },
+        {
+            "scheme_name": "Soil Health Card",
+            "component_name": "Soil Testing and Advisory",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Provides crop-wise recommendations of nutrients and fertilizers required to improve yield based on soil testing.",
+            "eligibility": "All farmers are periodically issued these cards by the state government.",
+            "how_to_apply": "Contact the nearest soil testing laboratory or district agriculture officer.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/Guidelines_Soil%20Health%20Card.pdf"
+            },
+            "last_updated": "01-09-2016"
+        },
+        {
+            "scheme_name": "Pradhan Mantri Fasal Bima Yojana",
+            "component_name": "Crop Insurance Scheme",
+            "season": [
+                "All Year"
+            ],
+            "benefit": "Provides comprehensive insurance cover against failure of the crop, helping stabilize farmer income. Premium is as low as 1.5% - 2%.",
+            "eligibility": "All farmers growing notified crops in notified areas including tenant farmers and sharecroppers.",
+            "how_to_apply": "Apply through the PMFBY portal, CSC centres, or the bank branches granting KCC loans.",
+            "contact": {
+                "office": "Central Government of India",
+                "phone": "Toll Free: 1800-180-1551",
+                "website": "https://agriwelfare.gov.in/Documents/PMFBY_Guidelines.pdf"
+            },
+            "last_updated": "05-08-2017"
+        }
+    ]
+}

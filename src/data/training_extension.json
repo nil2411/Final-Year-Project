@@ -1,0 +1,167 @@
+{
+  "category": "Training and Extension for Farmers",
+  "level": "STATE",
+  "state": "MH",
+  "items": [
+    {
+      "scheme_name": "Seed Village Programme",
+      "component_name": "Training of farmer groups on seed production and seed technology",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 15,000 per group (50\u2013150 farmers)",
+      "eligibility": "Groups of farmers selected under Seed Village Programme",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Post Harvest Technology Management",
+      "component_name": "Training of farmers in recognized institutes",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 5,200 per farmer per month (stipend, boarding, lodging, travel)",
+      "eligibility": "Farmers selected for post-harvest training programmes",
+      "how_to_apply": "Apply through District Agriculture Office",
+      "contact": {
+        "office": "District Superintending Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Plant Protection Scheme",
+      "component_name": "Training on plant protection measures",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 1,52,100 per training for group of 40 farmers",
+      "eligibility": "Groups of farmers undergoing plant protection training",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Vegetable Initiative for Urban Clusters",
+      "component_name": "Two-day training on vegetable production and related areas",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 1,500 per farmer (excluding transport)",
+      "eligibility": "Vegetable growers in urban clusters",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "Sub-Divisional Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Oil Palm Area Expansion Programme (RKVY)",
+      "component_name": "Farmers study tours",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 50,000 per batch for 50 farmers",
+      "eligibility": "Oil palm growers selected under RKVY",
+      "how_to_apply": "Apply through District Agriculture Office",
+      "contact": {
+        "office": "District Superintending Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "ATMA Scheme",
+      "component_name": "Training of farmers outside the state",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 1,000 per farmer per day (transport, boarding, lodging included)",
+      "eligibility": "Farmers selected under ATMA scheme",
+      "how_to_apply": "Apply through ATMA block office",
+      "contact": {
+        "office": "ATMA Block Technology Team",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "ATMA Scheme",
+      "component_name": "Training of farmers within the state",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 750 per farmer per day (transport, boarding, lodging included)",
+      "eligibility": "Farmers selected under ATMA scheme",
+      "how_to_apply": "Apply through ATMA block office",
+      "contact": {
+        "office": "ATMA Block Technology Team",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Project on Management of Soil Health & Fertility",
+      "component_name": "Front Line Demonstrations by soil testing laboratories",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Rs 20,000 per demonstration",
+      "eligibility": "Farmers in selected villages",
+      "how_to_apply": "Apply through Soil Testing Laboratory",
+      "contact": {
+        "office": "Soil Testing Laboratory / Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "National Mission on Micro Irrigation",
+      "component_name": "Demonstration on micro irrigation (0.5 hectare)",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "75% subsidy on total cost",
+      "eligibility": "Farmers adopting micro irrigation systems",
+      "how_to_apply": "Apply through Agriculture Department",
+      "contact": {
+        "office": "District Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Seed Village Programme",
+      "component_name": "Visit of farmers to model farms / institutes",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "50% of cost limited to Rs 50,000 (40 sugarcane farmers)",
+      "eligibility": "Sugarcane growers selected under Seed Village Programme",
+      "how_to_apply": "Apply through Taluka Agriculture Officer",
+      "contact": {
+        "office": "Taluka Agriculture Officer",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    }
+  ]
+}

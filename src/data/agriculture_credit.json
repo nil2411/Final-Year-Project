@@ -1,0 +1,71 @@
+{
+  "category": "Agriculture Credit",
+  "level": "STATE",
+  "state": "MH",
+  "items": [
+    {
+      "scheme_name": "Interest Subvention Scheme",
+      "component_name": "Interest assistance on crop loans",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "3% interest rebate on timely repayment of crop loan up to Rs 3 lakh at 7% interest",
+      "eligibility": "Farmers availing crop loans from banks and repaying on time",
+      "how_to_apply": "Avail crop loan through banks under applicable schemes",
+      "contact": {
+        "office": "Nearest Bank / Cooperative Bank",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Agricultural Credit Policy",
+      "component_name": "Collateral-free farm loans",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "No collateral security required for farm loans up to Rs 1 lakh",
+      "eligibility": "Farmers seeking crop or term loans up to Rs 1 lakh",
+      "how_to_apply": "Apply directly through banks or cooperative credit institutions",
+      "contact": {
+        "office": "Nearest Bank / Cooperative Credit Institution",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Kisan Credit Card (KCC)",
+      "component_name": "Crop loan through Kisan Credit Card",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Flexible crop loan with credit limit based on 3\u20135 years cropping pattern and insurance cover up to Rs 50,000 for accidental death",
+      "eligibility": "All eligible farmers including tenant farmers and sharecroppers",
+      "how_to_apply": "Apply through banks for Kisan Credit Card",
+      "contact": {
+        "office": "Nearest Bank / Cooperative Bank",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    },
+    {
+      "scheme_name": "Agricultural Investment Loan Scheme",
+      "component_name": "Investment loans for agriculture development",
+      "season": [
+        "All Year"
+      ],
+      "benefit": "Loan facility for irrigation, agricultural mechanization and land development activities",
+      "eligibility": "Farmers requiring term loans for agricultural investments",
+      "how_to_apply": "Apply through banks for term loan under agriculture sector",
+      "contact": {
+        "office": "Nearest Bank / Cooperative Bank",
+        "phone": "1800-180-1551",
+        "website": "https://www.mahaagri.gov.in"
+      },
+      "last_updated": "2025-07-01"
+    }
+  ]
+}
